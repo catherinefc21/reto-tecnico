@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250, 248, 248);
+}
+header{
+    height: 60px;
+    margin-bottom: 30px;
+    background-color: rgb(26, 24, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+}
+input{
+    height: 20px;
+}
+button{
+    background-color: rgb(146, 142, 138);
+    color: aliceblue;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+button:hover{
+    background-color: orange;
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-radius: 5px;
+    height: 25px;
+    border: solid orange;
+   
+}
+section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container-poke-info{
+    background-color: rgba(255, 166, 0, 0.603);
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    cursor: pointer;
+}
+.container-poke-info:hover{
+    transform: scale(1.1);
+}
